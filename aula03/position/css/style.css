@@ -1,0 +1,96 @@
+/* parte 01 */
+/* h1 {
+  border: 2px solid #ccc;
+  padding: 20px 20px 300px 20px;
+}
+
+p {
+  background: #e7e7e7;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.fixo{
+  position: fixed;
+  /* top: 0; */
+  /* left: 300px;
+  right: 0;
+  bottom: 0;
+} */ 
+
+/* =================================== */
+/* parte 02 */
+/* div {
+  border: 2px solid #ccc;
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
+  position: relative;
+}
+
+span {
+  background: #e7e7e7;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0;
+  /* position: relative; */
+  /* position: absolute; 
+  /* top: -30px; */
+  /* top: 0px;
+  right: 0;
+
+/* } */ 
+
+/* ============================= */
+
+/* parte 03 */
+/* .index1 {
+  position: relative;
+  background: greenyellow;
+  top: -10px;
+  z-index: 1;
+} */
+
+/* .index2 {
+  position: absolute;
+  top: 30px;
+  background: lightcoral;
+  z-index: 2;
+} */
+
+/* ============================== */
+body {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #010a01;
+}
+
+h1,h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.container {
+  margin-top: 40vh;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 15px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
