@@ -1,0 +1,22 @@
+/* body {
+  
+} */
+
+.container {
+  background: rebeccapurple;
+  width: 500px;
+  height: 200px;
+  /* display flex, deixa os blocos em linha; */
+  display: flex;
+  /* justify deixa no centro, porem no topo */
+  justify-content: space-between;
+  /* align deixa no centro, bem no centro do container */
+  align-items: center;
+  flex-direction: row;
+}
+
+.box1,.box2,.box3,.box4 {
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+}
