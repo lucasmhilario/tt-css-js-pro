@@ -9,7 +9,7 @@
   /* display flex, deixa os blocos em linha; */
   display: flex;
   /* justify deixa no centro, porem no topo */
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* align deixa no centro, bem no centro do container */
   align-items: center;
   flex-direction: row;
