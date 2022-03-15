@@ -146,6 +146,7 @@ h1 {
 }
 
 .button {
+  margin-bottom: 40px;
   /* border: 2px solid red; */
   font-size: 1px;
   color: white;
