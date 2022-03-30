@@ -1,7 +1,3 @@
-@import "reset";
-@import "colors";
-
-
 $cor-primaria: #ffb92f;
 $cor-fundo: #fff;
 $fonte-primaria: monospace;
@@ -15,6 +11,8 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+  background: $cor-fundo;
+  flex-direction: column;
 } 
 
 main {
@@ -24,7 +22,6 @@ main {
 h1 {
   color: $cor-primaria;
   font-family: $fonte-primaria;
-  font-size: 34px;
 }
 
 a {
@@ -44,4 +41,22 @@ p {
   font-weight: 400;
   font-family: $fonte-primaria;
   margin-bottom: $gutter;
+}
+
+ul {
+  text-align: center;
+  li {
+    display: inline-block;
+    list-style: none;
+    a {
+      display: block;
+      padding: 20px;
+      text-decoration: none;
+      background: blue;
+      color: #fff;
+      &:hover {
+        background: pink;
+      }
+    }
+  }
 }
