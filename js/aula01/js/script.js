@@ -200,14 +200,32 @@
 
 // notificação
 // window.
-// alert("Olá mundo");
 
-const titulo = document.getElementById("title");
-const subtitulo = document.getElementsByClassName("subtitle");
-const variosItens = document.getElementsByClassName("botao lista");
-const tag = document.getElementsByTagName("h2");
+// var titulo = document.querySelector("#title");
+// var botao = document.querySelector("button");
 
-console.log(titulo);
-console.log(subtitulo);
-console.log(variosItens);
-console.log(tag);
+// function callback(){
+//   // alert ("chamou");
+//   title.innerHTML = "Clicou no titulo";
+//   botao.classList.toggle("botaoAtivo");
+// };
+
+// titulo.addEventListener("click", callback); //callback() - já executa a função.
+
+// botao.addEventListener ("click", function() {
+//   botao.innerHTML = "Clicou no botao";
+//   botao.classList.add("botaoClick");
+// });
+
+// var main = document.querySelector(".main");
+// var botao = document.createElement("button");
+
+// botao.innerText = "Adicionar";
+// botao.classList.add("botaoClick");
+// main.appendChild(botao);
+
+if (true) {
+  var carro = "fiat";
+  console.log(carro);
+}
+console.log(carro);

@@ -1,0 +1,29 @@
+alert("Olá mundo");
+// const titulo = document.getElementById("title");
+// const subtitulo = document.getElementsByClassName("subtitle");
+// const variosItens = document.getElementsByClassName("botao lista");
+// const tag = document.getElementsByTagName("h2");
+
+// console.log(titulo);
+// console.log(subtitulo);
+// console.log(variosItens);
+// console.log(tag);
+
+
+// var titulo = document.querySelector("#title");
+
+// titulo.innerHTML = "Primeiro Titulo";
+
+// console.log(">>", titulo);
+
+// const menu = document.querySelector(".menu");
+
+// menu.className; //string
+// menu.classList; // lista de classes
+// menu.classList.add("Ativo");
+// menu.classList.add("ativo", "mobile"); //duas classes
+// menu.classList.remove("Ativo");
+// menu.classList.toggle("ativo"); //adiciona/remove a classe
+// menu.classList.contains("ativo"); //true ou false
+// menu.classList.replace("ativo", "inativo");
+
